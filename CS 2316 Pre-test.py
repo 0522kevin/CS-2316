@@ -15,9 +15,6 @@ def num_evens(lists):
             temp_list.append(number)
     return temp_list
 
-sum1 = 0
-sum2 = 0
-sum3 = 0
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 query = 5
 
