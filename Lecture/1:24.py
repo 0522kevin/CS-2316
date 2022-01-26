@@ -40,9 +40,6 @@ class Card:
         self.suit = "Spades"
         self.rank = rank
 
-    def __rep_(self):
-        print(f"{self.rank} of {self.suit}")
-
     # Two Card objects are equal if and only if their ranks and suits are equal to each other
     def __eq__(self, other):
         return self.rank == other.rank and self.suit == other.suit
