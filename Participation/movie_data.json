@@ -1,0 +1,137 @@
+{
+    "Batman Forever": {
+        "Average Ticket Price": 4.35,
+        "Genre": "Drama",
+        "Year": 1995
+    },
+    "Independence Day": {
+        "Average Ticket Price": 4.42,
+        "Genre": "Adventure",
+        "Year": 1996
+    },
+    "Men in Black": {
+        "Average Ticket Price": 4.59,
+        "Genre": "Adventure",
+        "Year": 1997
+    },
+    "Titanic": {
+        "Average Ticket Price": 4.69,
+        "Genre": "Adventure",
+        "Year": 1998
+    },
+    "Star Wars Ep. I: The Phantom Menace": {
+        "Average Ticket Price": 5.08,
+        "Genre": "Adventure",
+        "Year": 1999
+    },
+    "How the Grinch Stole Christmas": {
+        "Average Ticket Price": 5.39,
+        "Genre": "Adventure",
+        "Year": 2000
+    },
+    "Harry Potter and the Sorcerer\u2019s Stone": {
+        "Average Ticket Price": 5.66,
+        "Genre": "Adventure",
+        "Year": 2001
+    },
+    "Spider-Man": {
+        "Average Ticket Price": 5.81,
+        "Genre": "Adventure",
+        "Year": 2002
+    },
+    "Finding Nemo": {
+        "Average Ticket Price": 6.03,
+        "Genre": "Adventure",
+        "Year": 2003
+    },
+    "Shrek 2": {
+        "Average Ticket Price": 6.21,
+        "Genre": "Adventure",
+        "Year": 2004
+    },
+    "Star Wars Ep. III: Revenge of the Sith": {
+        "Average Ticket Price": 6.41,
+        "Genre": "Action",
+        "Year": 2005
+    },
+    "Pirates of the Caribbean: Dead Man\u2019s Chest": {
+        "Average Ticket Price": 6.55,
+        "Genre": "Action",
+        "Year": 2006
+    },
+    "Spider-Man 3": {
+        "Average Ticket Price": 6.88,
+        "Genre": "Adventure",
+        "Year": 2007
+    },
+    "The Dark Knight": {
+        "Average Ticket Price": 7.18,
+        "Genre": "Adventure",
+        "Year": 2008
+    },
+    "Transformers: Revenge of the Fallen": {
+        "Average Ticket Price": 7.5,
+        "Genre": "Action",
+        "Year": 2009
+    },
+    "Toy Story 3": {
+        "Average Ticket Price": 7.89,
+        "Genre": "Action",
+        "Year": 2010
+    },
+    "Harry Potter and the Deathly Hallows: Part II": {
+        "Average Ticket Price": 7.93,
+        "Genre": "Action",
+        "Year": 2011
+    },
+    "The Avengers": {
+        "Average Ticket Price": 7.96,
+        "Genre": "Adventure",
+        "Year": 2012
+    },
+    "Iron Man 3": {
+        "Average Ticket Price": 8.13,
+        "Genre": "Adventure",
+        "Year": 2013
+    },
+    "Guardians of the Galaxy": {
+        "Average Ticket Price": 8.17,
+        "Genre": "Adventure",
+        "Year": 2014
+    },
+    "Star Wars Ep. VII: The Force Awakens": {
+        "Average Ticket Price": 8.43,
+        "Genre": "Action",
+        "Year": 2015
+    },
+    "Finding Dory": {
+        "Average Ticket Price": 8.65,
+        "Genre": "Action",
+        "Year": 2016
+    },
+    "Star Wars Ep. VIII: The Last Jedi": {
+        "Average Ticket Price": 8.97,
+        "Genre": "Action",
+        "Year": 2017
+    },
+    "Black Panther": {
+        "Average Ticket Price": 9.11,
+        "Genre": "Action",
+        "Year": 2018
+    },
+    "Avengers: Endgame": {
+        "Average Ticket Price": 9.16,
+        "Genre": "N/A",
+        "Year": 2019
+    },
+    "Bad Boys For Life": {
+        "Average Ticket Price": 9.16,
+        "Genre": "N/A",
+        "Year": 2020
+    },
+    "Shang-Chi and the Legend of the Ten Rings": {
+        "Average Ticket Price": 9.16,
+        "Genre": "N/A",
+        "Year": 2021
+    }
+}
