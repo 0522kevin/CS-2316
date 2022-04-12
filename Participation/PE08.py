@@ -82,7 +82,7 @@ Write a query that finds the
 '''
 def query1(cursor):
     '''Fill in the query'''
-    query = ''
+    query = 'SELECT employee_id, name, store_id, salary FROM employees WHERE salary <= 30000'
     cursor.execute(query)
     result = cursor.fetchall()
     return result
@@ -95,7 +95,7 @@ Write a query that finds the
 '''
 def query2(cursor):
     '''Fill in the query'''
-    query = ''
+    query = 'SELECT name, num_employees, total_revenue FROM stores WHERE name LIKE \"C%\" AND total_revenue BETWEEN 5000000 AND 8000000'
     cursor.execute(query)
     result = cursor.fetchall()
     return result
@@ -107,7 +107,7 @@ Write a query that finds the
 '''
 def query3(cursor):
     '''Fill in the query'''
-    query = ''
+    query = 'SELECT name, total_revenue FROM stores ORDER BY total_revenue DESC LIMIT 5'
     cursor.execute(query)
     result = cursor.fetchall()
     return result
@@ -123,7 +123,7 @@ Hint: This will involve a join of two tables where one table will provide
 '''
 def query4(cursor):
     '''Fill in the query'''
-    query = ''
+    query = 'SELECT stores.store_id, sum(salary) FROM stores RIGHT JOIN employees ON stores.store_id = employees.store_id  GROUP BY employees.store_id HAVING sum(salary) > 50000'
     cursor.execute(query)
     result = cursor.fetchall()
     return result
@@ -137,7 +137,7 @@ Write a query that finds the
 '''
 def query5(cursor, min_id, min_items):
     '''Fill in the query'''
-    query = ''
+    query = 'SELECT stores.name, count(*) FROM stores LEFT JOIN products ON stores.store_id = products.store_id WHERE stores.store_id > %s GROUP BY stores.name HAVING count(*) > %s'
     cursor.execute(query, (min_id, min_items,))
     result = cursor.fetchall()
     return result
