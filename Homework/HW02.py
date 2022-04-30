@@ -196,8 +196,8 @@ def glee_dict(filename):
 	for each in dic.keys():
 		dic[each]["Finale Views"] = f"{blist[index + 1]} million"
 		dic[each]["Premiere Views"] = f"{blist[index]} million"
-		if blist[index + 1] > blist[index]:
-			dic[each]["Retention"] = str(round((float(blist[index + 1]) - float(blist[index])) / float(blist[index]) * 100, 2)) + "% increase"
+		if float(blist[index + 1]) - float(blist[index]) < 0:
+			dic[each]["Retention"] = str(abs(round((float(blist[index + 1]) - float(blist[index])) / float(blist[index]) * 100, 2))) + "% increase"
 			dic[each]["Success"] = True
 		else:
 			dic[each]["Retention"] = str(abs(round((float(blist[index + 1]) - float(blist[index])) / float(blist[index]) * 100, 2))) + "% decrease"
@@ -230,9 +230,9 @@ if __name__ == "__main__":
 	# print(character_info(72))
 	# print(len(character_info(72)))
 
-	# pprint(glee_dict('glee.html'))
+	pprint(glee_dict('glee.html'))
 
-	pprint(colorful_film())
+	# pprint(colorful_film())
 
 
 
